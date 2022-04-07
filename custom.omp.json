@@ -9,7 +9,8 @@
         {
           "type": "os",
           "foreground": "#26C6DA",
-          "style": "plain"
+          "style": "plain",
+          "template": "{{ if .WSL }}WSL at {{ end }}{{.Icon}} "
         },
         {
           "type": "session",
@@ -62,7 +63,7 @@
           "type": "text",
           "foreground": "#65B7F3",
           "style": "plain",
-          "template": " \u276f"
+          "template": "\u276f"
         }
       ]
     }
