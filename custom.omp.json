@@ -41,15 +41,14 @@
       "segments": [
         {
           "type": "node",
-          "foreground": "#417e38",
-          "template": "\ue718 {{ .Full }}",
-          "style": "diamond",
-          "trailing_diamond": " <#888>|</>"
+          "foreground": "#799f51",
+          "template": "\ue718 {{ .Full }}<#888> | </>",
+          "style": "plain"
         },
         {
           "type": "time",
-          "foreground": "#ddd",
-          "template": " {{ .CurrentDate | date .Format }}",
+          "foreground": "#aaa",
+          "template": "\ue641 {{ .CurrentDate | date .Format }}",
           "style": "plain"
         }
       ]
@@ -63,7 +62,7 @@
           "type": "text",
           "foreground": "#65B7F3",
           "style": "plain",
-          "template": "\u276f"
+          "template": "\uf105"
         }
       ]
     }
